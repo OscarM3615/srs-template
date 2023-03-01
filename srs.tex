@@ -1,0 +1,33 @@
+\documentclass[12pt]{srsdocument}
+
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx}
+\usepackage{hyperref}
+
+\graphicspath{{./assets/}}
+
+\title{Project Name}
+\author{Author Name}
+\date{\today}
+\version{1.0}
+
+\begin{document}
+
+\maketitle
+
+\tableofcontents
+
+\input{prelims/revisions}
+
+\input{chapters/01-introduction}
+\input{chapters/02-product-overview}
+\input{chapters/03-requirements}
+\input{chapters/04-verification}
+
+\appendix
+
+\input{appendixes/example}
+
+\end{document}

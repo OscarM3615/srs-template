@@ -1,0 +1,8 @@
+# Auxiliary files
+*.aux
+*.log
+*.out
+*.toc
+
+# Output file
+*.pdf
